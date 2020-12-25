@@ -1,0 +1,10 @@
+section {
+    opacity: 0;
+    transform: translate(0, 100px); 
+    transition: all 1s;
+}
+    
+section.visible {
+    opacity: 1;
+    transform: translate(0, 0); 
+}
