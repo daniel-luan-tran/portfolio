@@ -1,5 +1,13 @@
 // FADE-IN FADE-OUT effect on scrolling
-
+$("section").each(function(i){
+    var top_of_object = $(this).position().top ;
+    var bottom_of_page = $(window).scrollTop() + $(window).height();
+    if (bottom_of_page > top_of_object){
+        $(this).addClass('visible');
+    } else {
+        $(this).removeClass('visible');
+    }
+});
 $(document).ready(function() {
     $(window).scroll(function(){
         $("section").each(function(i){
