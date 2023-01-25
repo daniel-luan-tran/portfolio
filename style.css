@@ -14,3 +14,7 @@
     border: 0px none #ffffff;
     border-radius: 0px;
 }
+
+body, html {
+    font-size: large;
+}
