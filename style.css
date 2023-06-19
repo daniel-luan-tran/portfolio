@@ -18,3 +18,11 @@
 body, html {
     font-size: large;
 }
+
+.carousel-caption {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-top: 1px solid #dee2e6;
+}
